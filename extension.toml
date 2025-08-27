@@ -4,4 +4,4 @@ version = "0.0.1"
 schema_version = 1
 authors = ["Ziani Taha <0xtz.me>"]
 description = "A top-tier theme for Zed text editor, meticulously crafted by 0xtz and an AI assistant, inspired by the Andromeda VS Code theme."
-repository = ""
+repository = "https://github.com/0xtz/0xtz-zed-theme"

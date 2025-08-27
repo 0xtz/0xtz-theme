@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import type React from "react";
+import { useState, useEffect } from "react";
 
 interface Item {
   id: number;
@@ -46,7 +47,7 @@ export default function AndromedaThemeShowcase() {
     setCount((prevCount) => prevCount + 1);
   };
 
-  const renderItems = (): JSX.Element[] => {
+  const renderItems = (): React.JSX.Element[] => {
     return items.map((item) => (
       <li key={item.id} style={{ color: "#00e8c6" }}>
         {item.name}
@@ -56,7 +57,7 @@ export default function AndromedaThemeShowcase() {
 
   return (
     <div className="andromeda-container">
-      <h1>Andromeda Theme React Showcase</h1>
+      <h1>0xtz Theme React Showcase</h1>
       <p>
         Current Count: <span className="count-display">{count}</span>
       </p>

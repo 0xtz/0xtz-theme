@@ -32,7 +32,7 @@ def main():
         print(f"Name: {name}")
 
     # Function call with a class instance
-    user = User(1, "Andromeda")
+    user = User(1, "0xtz")
     user.display()
 
 if __name__ == "__main__":
