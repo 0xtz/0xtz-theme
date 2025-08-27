@@ -34,7 +34,7 @@ func main() {
 	}
 
 	// Function call with a struct
-	user := User{ID: 1, Name: "Andromeda"}
+	user := User{ID: 1, Name: "0xtz"}
 	user.Display()
 }
 

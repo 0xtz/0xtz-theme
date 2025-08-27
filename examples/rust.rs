@@ -27,7 +27,7 @@ fn main() {
     }
 
     // Function call with a custom type
-    let user = User { id: 1, name: String::from("Andromeda") };
+    let user = User { id: 1, name: String::from("0xtz") };
     user.display();
 }
 
